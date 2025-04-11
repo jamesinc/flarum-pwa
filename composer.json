@@ -1,5 +1,5 @@
 {
-    "name": "jamesinc/flarum-pwa",
+    "name": "askvortsov/flarum-pwa",
     "description": "Turn your flarum site into a progressive web app!",
     "keywords": [
         "flarum"
@@ -7,8 +7,8 @@
     "type": "flarum-extension",
     "license": "MIT",
     "support": {
-        "issues": "https://github.com/jamesinc/flarum-pwa/issues",
-        "source": "https://github.com/jamesinc/flarum-pwa",
+        "issues": "https://github.com/askvortsov1/flarum-pwa/issues",
+        "source": "https://github.com/askvortsov1/flarum-pwa",
         "forum": "https://discuss.flarum.org/d/23219-progressive-web-app-and-push-notifications"
     },
     "require": {
@@ -24,11 +24,6 @@
         {
             "name": "Alexander Skvortsov",
             "email": "askvortsov@flarum.org",
-            "role": "Developer"
-        },
-        {
-            "name": "James Ducker",
-            "email": "james.ducker@gmail.com",
             "role": "Developer"
         }
     ],
