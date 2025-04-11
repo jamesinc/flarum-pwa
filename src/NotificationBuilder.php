@@ -79,6 +79,10 @@ class NotificationBuilder
 
         switch ($blueprint::getSubjectModel()) {
             case Discussion::class:
+                if ($blueprint->getType() === 'newPost') {
+                    $content = $blueprint->post->formatContent();
+                    break;
+                }
                 /** @var Discussion $subject */
                 $content = $this->getRelevantPostContent($subject);
                 break;
