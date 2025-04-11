@@ -119,10 +119,9 @@ class NotificationBuilder
 
             case Discussion::class:
                 /** @var Discussion $subject */
-
                 $params = ['id' => $subject->id];
 
-                if ( array_key_exists('postNumber', $data)) {
+                if (array_key_exists('postNumber', $data)) {
                     $params['near'] = $data['postNumber'];
                 }
 
@@ -130,7 +129,6 @@ class NotificationBuilder
 
             case Post::class:
                 /** @var Post $subject */
-
                 return $this->url->to('forum')->route(
                     'discussion',
                     ['id' => $subject->discussion_id, 'near' => $subject->number]
