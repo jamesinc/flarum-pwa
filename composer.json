@@ -12,10 +12,9 @@
         "forum": "https://discuss.flarum.org/d/23219-progressive-web-app-and-push-notifications"
     },
     "require": {
-        "flarum/core": "^1.7",
+        "flarum/core": "^1.8",
         "minishlink/web-push": "^7.0",
-        "spomky-labs/base64url" : "^2.0",
-        "kreait/firebase-php": "^5.0"
+        "spomky-labs/base64url" : "^2.0"
     },
     "suggest": {
         "ext-gmp": "This can improve push notification performance."
